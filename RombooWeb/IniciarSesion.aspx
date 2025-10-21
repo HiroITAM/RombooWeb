@@ -29,14 +29,13 @@
 <body class="bg-white flex flex-col min-h-screen">
     <form id="form1" runat="server" class="flex flex-col flex-grow">
         <!-- Encabezado Principal -->
-        <header class="bg-black shadow-lg sticky top-0 z-50">
+        <header class="bg-black shadow-lg">
             <div class="container mx-auto px-6 py-4 flex justify-start items-center">
-                <!-- Logo con el estilo de gradiente y fuente específica -->
+                <!-- Logo como LinkButton de texto estilizado -->
                 <div class="flex items-center">
-                    <asp:ImageButton ID="btnLogo" runat="server" ImageUrl="Romboo logo.png" OnClick="btnLogo_Click" AlternateText="Romboo Logo" CssClass="h-12 w-auto mr-3" ToolTip="Ir a la página principal" />
-                    <h1 class="text-4xl font-light ramboo-gradient-text" style="font-family: 'Yu Gothic UI Light', sans-serif;">
-                        Romboo
-                    </h1>
+                    <asp:ImageButton ID="btnLogo0" runat="server" ImageUrl="Romboo logo.png" OnClick="btnLogo_Click" AlternateText="Romboo Logo" CssClass="h-12 w-auto mr-3" ToolTip="Ir a la página principal" />
+                    <br />
+                    <asp:LinkButton ID="btnLogo" runat="server" OnClick="btnLogo_Click" CssClass="text-4xl font-light ramboo-gradient-text" Text="Romboo" ToolTip="Ir a la página principal" Width="158px"></asp:LinkButton>
                 </div>
             </div>
         </header>

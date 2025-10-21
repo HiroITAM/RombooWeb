@@ -7,27 +7,21 @@ using System.Web.UI.WebControls;
 
 namespace RombooWeb
 {
-    public partial class IniciarSesion : System.Web.UI.Page
+    public partial class Registro : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
 
-        protected void btnContinuar_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("Dashboard_Cliente.aspx");
-        }
-
-
-        protected void btnLogo_Click(object sender, EventArgs e)
+        protected void btnLogo_Click(object sender, ImageClickEventArgs e)
         {
             Response.Redirect("HomePage.aspx");
         }
 
         protected void btnCrearCuenta_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Registro.aspx");
+
         }
     }
 }
