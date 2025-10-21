@@ -37,7 +37,7 @@
             <div class="container mx-auto px-6 py-4 flex justify-between items-center">
                 <!-- Logo con el estilo de gradiente y fuente específica -->
                 <div class="flex items-center">
-                    <asp:ImageButton ID="btnLogo" runat="server" ImageUrl="Romboo logo.png" OnClick="btnLogo_Click" AlternateText="Romboo Logo" CssClass="h-12 w-auto mr-3" ToolTip="Ir a la página principal" />
+                    <asp:ImageButton ID="btnLogo" runat="server" ImageUrl="https://hiroitam.github.io/Ramboo-Imagenes/Imagenes/Romboo_logo.png" OnClick="btnLogo_Click" AlternateText="Romboo Logo" CssClass="h-12 w-auto mr-3" ToolTip="Ir a la página principal" />
                     <h1 class="text-4xl font-light ramboo-gradient-text" style="font-family: 'Yu Gothic UI Light', sans-serif;">
                         Romboo
                     </h1>
@@ -63,38 +63,39 @@
         <section class="text-center mb-20">
             <h2 class="text-5xl font-bold mb-4">Bienvenido a Nuestra Plataforma</h2>
             <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">Una descripción atractiva y concisa sobre el propósito principal de tu aplicación o sitio web.</p>
-            <img src="https://placehold.co/1200x500/639EFE/white?text=Imagen+Principal" 
+            <!-- IMAGEN MODIFICADA -->
+            <img src="https://hiroitam.github.io/Ramboo-Imagenes/Imagenes/Imagen_Inicial.png" 
                  alt="Imagen principal de la sección de héroe" 
-                 class="w-full h-auto rounded-lg shadow-xl object-cover">
+                 class="max-w-4xl mx-auto h-auto rounded-lg shadow-xl object-cover">
         </section>
 
         <!-- Sección de Características -->
         <section class="mb-20">
-            <h3 class="text-4xl font-bold text-center mb-12">Nuestras Características</h3>
+            <h3 class="text-4xl font-bold text-center mb-12">¿Como funciona?</h3>
             <div class="grid md:grid-cols-3 gap-10">
                 <!-- Característica 1 -->
                 <div class="bg-white p-8 rounded-lg shadow-md text-center hover:shadow-2xl transition-shadow duration-300">
-                    <img src="https://placehold.co/400x300/6EECFF/333333?text=Característica+1" 
-                         alt="Ilustración de la característica 1" 
+                    <img src="https://hiroitam.github.io/Ramboo-Imagenes/Imagenes/Main_Usuario.png" 
+                         alt="Ilustración de Usuario con dudas" 
                          class="w-full h-48 object-cover rounded-md mb-6">
-                    <h4 class="text-2xl font-semibold mb-2">Desarrollo Moderno</h4>
-                    <p class="text-gray-600">Utilizamos las tecnologías más recientes para crear soluciones robustas y escalables para tu negocio.</p>
+                    <h4 class="text-2xl font-semibold mb-2">¿Necesitas una mano?</h4>
+                    <p class="text-gray-600">Cualquier necesedidad que tengas y no conozcas a alguien que te ayude.</p>
                 </div>
                 <!-- Característica 2 -->
                 <div class="bg-white p-8 rounded-lg shadow-md text-center hover:shadow-2xl transition-shadow duration-300">
-                    <img src="https://placehold.co/400x300/5ECADA/333333?text=Característica+2" 
+                    <img src="https://hiroitam.github.io/Ramboo-Imagenes/Imagenes/Main_App.png" 
                          alt="Ilustración de la característica 2" 
                          class="w-full h-48 object-cover rounded-md mb-6">
-                    <h4 class="text-2xl font-semibold mb-2">Diseño Intuitivo</h4>
-                    <p class="text-gray-600">Creamos interfaces de usuario atractivas y fáciles de usar que mejoran la experiencia de tus clientes.</p>
+                    <h4 class="text-2xl font-semibold mb-2">Usa nuestra app</h4>
+                    <p class="text-gray-600">Crea una solicitud y alguno de nuestros asociados presentará una propuesta.</p>
                 </div>
                 <!-- Característica 3 -->
                 <div class="bg-white p-8 rounded-lg shadow-md text-center hover:shadow-2xl transition-shadow duration-300">
-                    <img src="https://placehold.co/400x300/639EFE/333333?text=Característica+3" 
+                    <img src="https://hiroitam.github.io/Ramboo-Imagenes/Imagenes/Main_Tecnico.png" 
                          alt="Ilustración de la característica 3"
                          class="w-full h-48 object-cover rounded-md mb-6">
-                    <h4 class="text-2xl font-semibold mb-2">Soporte Continuo</h4>
-                    <p class="text-gray-600">Ofrecemos soporte y mantenimiento para asegurar que tu aplicación funcione siempre a la perfección.</p>
+                    <h4 class="text-2xl font-semibold mb-2">Recibe la ayuda</h4>
+                    <p class="text-gray-600">Un asociado llegará a tu hogar listo para ayudarte.</p>
                 </div>
             </div>
         </section>
@@ -152,6 +153,4 @@
     </form>
 </body>
 </html>
-
-
 

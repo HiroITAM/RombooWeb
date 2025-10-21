@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace RombooWeb
 {
-    public partial class HomePage : System.Web.UI.Page
+    public partial class Fundadores : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -16,7 +16,7 @@ namespace RombooWeb
 
         protected void btnFundadores_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Fundadores.aspx");
+
         }
 
         protected void btnIniciarSesion_Click(object sender, EventArgs e)
@@ -26,7 +26,7 @@ namespace RombooWeb
 
         protected void btnLogo_Click(object sender, ImageClickEventArgs e)
         {
-
+            Response.Redirect("HomePage.aspx");
         }
     }
 }
