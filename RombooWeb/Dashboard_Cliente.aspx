@@ -89,8 +89,11 @@
             
             <!-- Sección de Botones Inferiores -->
             <div class="text-center mt-10 py-6 border-t border-gray-200">
-                <asp:Button ID="btnCrearResena" runat="server" Text="Crear Reseña" CssClass="bg-gray-600 hover:bg-gray-700 text-white font-bold py-3 px-6 rounded-lg focus:outline-none focus:shadow-outline transition duration-300 mx-2" />
-                <asp:Button ID="btnCrearSolicitud" runat="server" Text="Crear Solicitud" CssClass="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg focus:outline-none focus:shadow-outline transition duration-300 mx-2" />
+                <!-- CAMBIO: Se usa OnClick para la navegación desde C# -->
+                <asp:Button ID="btnCrearResena" runat="server" Text="Crear Reseña" CssClass="bg-gray-600 hover:bg-gray-700 text-white font-bold py-3 px-6 rounded-lg focus:outline-none focus:shadow-outline transition duration-300 mx-2" OnClick="btnCrearResena_Click" CausesValidation="false" />
+                
+                <!-- CAMBIO: Se usa OnClick para la navegación desde C# -->
+                <asp:Button ID="btnCrearSolicitud" runat="server" Text="Crear Solicitud" CssClass="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg focus:outline-none focus:shadow-outline transition duration-300 mx-2" OnClick="btnCrearSolicitud_Click" CausesValidation="false" />
             </div>
         </main>
     </form>

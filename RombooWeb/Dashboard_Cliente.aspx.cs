@@ -23,12 +23,12 @@ namespace RombooWeb
 
         protected void btnCrearResena_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("Reseña.aspx");
         }
 
         protected void btnCrearSolicitud_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("Solicitud.aspx");
         }
 
         protected void ddlPropuestas_SelectedIndexChanged(object sender, EventArgs e)
@@ -45,5 +45,6 @@ namespace RombooWeb
         {
             Response.Redirect("HomePage.aspx");
         }
+
     }
 }

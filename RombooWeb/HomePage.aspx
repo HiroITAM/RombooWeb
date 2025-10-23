@@ -109,8 +109,8 @@
                     <img src="https://placehold.co/600x400/639EFE/white?text=Proyecto+A" alt="Proyecto A" class="w-full h-auto transform group-hover:scale-110 transition-transform duration-500 ease-in-out">
                     <div class="absolute inset-0 bg-black bg-opacity-70 flex items-end opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
                         <div class="text-white p-4">
-                            <h5 class="font-bold text-lg">Proyecto Alfa</h5>
-                            <p class="text-sm">Descripción breve del primer proyecto.</p>
+                            <h5 class="font-bold text-lg">Hogar</h5>
+                            <p class="text-sm">Pide ayuda para cualquier necesidad del hogar.</p>
                         </div>
                     </div>
                 </div>
@@ -119,8 +119,8 @@
                     <img src="https://placehold.co/600x400/5ECADA/white?text=Proyecto+B" alt="Proyecto B" class="w-full h-auto transform group-hover:scale-110 transition-transform duration-500 ease-in-out">
                     <div class="absolute inset-0 bg-black bg-opacity-70 flex items-end opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
                         <div class="text-white p-4">
-                            <h5 class="font-bold text-lg">Proyecto Beta</h5>
-                            <p class="text-sm">Descripción breve del segundo proyecto.</p>
+                            <h5 class="font-bold text-lg">Escolar</h5>
+                            <p class="text-sm">Desde asesorías hasta mentoria para proyectos.</p>
                         </div>
                     </div>
                 </div>
@@ -129,8 +129,8 @@
                     <img src="https://placehold.co/600x400/6EECFF/333?text=Proyecto+C" alt="Proyecto C" class="w-full h-auto transform group-hover:scale-110 transition-transform duration-500 ease-in-out">
                     <div class="absolute inset-0 bg-black bg-opacity-70 flex items-end opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
                         <div class="text-white p-4">
-                            <h5 class="font-bold text-lg">Proyecto Gamma</h5>
-                            <p class="text-sm">Descripción breve del tercer proyecto.</p>
+                            <h5 class="font-bold text-lg">Salud</h5>
+                            <p class="text-sm">Para una consulta pequeña o apoyo.</p>
                         </div>
                     </div>
                 </div>
@@ -139,8 +139,8 @@
                     <img src="https://placehold.co/600x400/cccccc/333?text=Proyecto+D" alt="Proyecto D" class="w-full h-auto transform group-hover:scale-110 transition-transform duration-500 ease-in-out">
                     <div class="absolute inset-0 bg-black bg-opacity-70 flex items-end opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
                         <div class="text-white p-4">
-                            <h5 class="font-bold text-lg">Proyecto Delta</h5>
-                            <p class="text-sm">Descripción breve del cuarto proyecto.</p>
+                            <h5 class="font-bold text-lg">Otros</h5>
+                            <p class="text-sm">Propone y alguien te ayudará.</p>
                         </div>
                     </div>
                 </div>

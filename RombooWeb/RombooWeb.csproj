@@ -72,6 +72,8 @@
     <Content Include="HomePage.aspx" />
     <Content Include="IniciarSesion.aspx" />
     <Content Include="Registro.aspx" />
+    <Content Include="Reseña.aspx" />
+    <Content Include="Solicitud.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -110,6 +112,20 @@
     </Compile>
     <Compile Include="Registro.aspx.designer.cs">
       <DependentUpon>Registro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reseña.aspx.cs">
+      <DependentUpon>Reseña.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reseña.aspx.designer.cs">
+      <DependentUpon>Reseña.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Solicitud.aspx.cs">
+      <DependentUpon>Solicitud.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Solicitud.aspx.designer.cs">
+      <DependentUpon>Solicitud.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
